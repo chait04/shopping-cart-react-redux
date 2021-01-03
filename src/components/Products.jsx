@@ -5,7 +5,7 @@ const Products = ({ products }) => {
   return (
     // <div>
     <ul className="products">
-      {products.products.map((item) => {
+      {products.map((item) => {
         const { _id, image, title, price } = item;
 
         return (
